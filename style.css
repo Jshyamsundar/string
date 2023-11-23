@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.inputs{
+    text-transform: capitalize;
+    height: 50px;
+    width: 300px;
+    color:gray;
+    background-color: lightcoral;
+    outline: none;
+    font-size: 20px;
+    box-shadow: 5px 5px;
+    margin: 5px;
+}
+.inputs:hover{
+    background-color:limegreen;
+    color: white;
+}
